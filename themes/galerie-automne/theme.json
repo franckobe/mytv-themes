@@ -1,27 +1,26 @@
 {
   "schemaVersion": 1,
   "themeApiVersion": 1,
-  "id": "github:franckobe/mytv-noel-theme:noel-neige",
-  "title": "Automne au bord du lac",
-  "description": "Un lac de montagne en miroir aux couleurs d'automne, en fond animé. Tuiles en verre translucide, accents ambrés chaleureux et horloge claire.",
+  "id": "github:franckobe/mytv-themes:galerie-automne",
+  "title": "Galerie d'automne",
+  "description": "Une forêt d'automne canadienne dans la brume, en photo. Esprit galerie : tuiles encadrées quasi invisibles qui flottent, micro-libellés en capitales espacées, grand calme.",
   "author": {
     "name": "Franck",
     "url": "https://github.com/franckobe"
   },
-  "themeVersion": "1.3.0",
+  "themeVersion": "2.0.0",
   "layout": {
     "preset": "dock-grid",
     "columns": 6,
     "spacingScale": 1,
     "textScale": 1,
     "focusScale": 1.1,
-    "allowColumnOverride": false,
-    "motion": "classic"
+    "allowColumnOverride": false
   },
   "defaults": {
     "wallpaperAssetId": "landscape",
-    "dim": 0.5,
-    "accent": "#efe6d6"
+    "dim": 0.22,
+    "accent": "#e9d9bf"
   },
   "assets": [
     {
@@ -44,13 +43,5 @@
     "identifier": "MIT",
     "textPath": "LICENSE.txt",
     "creditsPath": "CREDITS.txt"
-  },
-  "wallpaperVideo": {
-    "variants": [
-      {
-        "quality": "1080p",
-        "path": "assets/wallpaper-1080p.mp4"
-      }
-    ]
   }
 }

@@ -1,9 +1,0 @@
-Automne au bord du lac — crédits des médias
-
-Fond animé (assets/wallpaper-1080p.mp4) et image fixe / aperçu
-(assets/landscape.jpg, assets/preview.jpg)
-  "Reflet de paysage automnal serein au bord du lac" — Pexels (ID 34693637)
-  Source : https://www.pexels.com/fr-fr/video/34693637/
-  Licence Pexels (gratuit, usage personnel et commercial, sans attribution obligatoire)
-
-Style CSS du thème : MIT (voir LICENSE.txt).

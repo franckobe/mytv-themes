@@ -1,0 +1,47 @@
+/* Galerie d'automne — esprit musée : texte clair raffiné, tuiles encadrées
+   quasi invisibles qui flottent sur la photo, micro-libellés espacés. Preset dock-grid. */
+
+.ctv-home { background-color: #171310; color: #f3efe9; }
+/* léger voile bas pour la lisibilité des libellés, le reste de la photo reste net */
+.ctv-ambient { background-image: linear-gradient(0deg, rgba(10,8,6,0.45), transparent); }
+
+/* Horloge fine et espacée, encre claire sur la brume. */
+.ctv-clock { color: #f6f2ec; font-weight: 400; letter-spacing: 2px; text-shadow: 0px 2px 14px rgba(0,0,0,0.85); }
+.ctv-greeting { color: #e9ddcb; font-weight: 500; letter-spacing: 4px; text-shadow: 0px 2px 10px rgba(0,0,0,0.85); }
+.ctv-date, .ctv-period { color: #ece3d4; font-weight: 400; letter-spacing: 1.5px; text-shadow: 0px 2px 10px rgba(0,0,0,0.85); }
+
+/* Dock transparent : les tuiles flottent sur la photo (pas de barre). */
+.ctv-dock { background-color: rgba(0,0,0,0); border-color: rgba(0,0,0,0); border-radius: 0px; }
+
+/* Tuiles pleines : fond verre sombre chaud, les cases forment une grille nette. */
+.ctv-card {
+  color: #f3efe9;
+  background-color: rgba(26,20,14,0.50);
+  border-color: rgba(255,255,255,0.12);
+  box-shadow: 0px 8px 22px rgba(0,0,0,0.40);
+}
+/* Focus : un seul cadre net (bordure claire sur la tuile) + la case s'éclaire et se soulève. */
+.ctv-card.is-focused {
+  background-color: rgba(48,37,26,0.72);
+  border-color: rgba(255,255,255,0.92);
+  box-shadow: 0px 16px 38px rgba(0,0,0,0.60);
+}
+/* On neutralise l'anneau blanc en plus que le launcher dessine, pour ne garder qu'UN cadre. */
+.ctv-focus { border-width: 0px; box-shadow: 0px 0px 0px rgba(0,0,0,0); }
+
+/* Micro-libellés : capitales fines et espacées. */
+.ctv-label { color: #f3efe9; font-weight: 500; text-transform: uppercase; letter-spacing: 2px; text-shadow: 0px 2px 8px rgba(0,0,0,0.9); }
+
+/* Raccourcis discrets ; focus = pastille claire, texte sombre. */
+.ctv-shortcut { color: #f3efe9; background-color: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.22); border-radius: 32px; }
+.ctv-shortcut.is-focused { color: #1a140c; background-color: rgba(246,242,236,0.94); border-color: rgba(255,255,255,0.95); }
+
+/* Panneaux (entrées, bibliothèque) : verre sombre chaud lisible. */
+.ctv-inputs { color: #f3efe9; background-color: rgba(20,16,12,0.90); border-color: rgba(255,255,255,0.20); border-radius: 12px; }
+.ctv-input-row { color: #f3efe9; background-color: transparent; border-radius: 8px; }
+.ctv-input-row.is-focused { color: #1a140c; background-color: rgba(246,242,236,0.92); }
+.ctv-library { color: #f3efe9; background-color: rgba(10,8,6,0.40); border-radius: 0px; }
+.ctv-library-panel { color: #f3efe9; background-color: rgba(20,16,12,0.90); border-color: rgba(255,255,255,0.20); border-radius: 12px; }
+.ctv-library-row, .ctv-library-close { color: #f3efe9; background-color: rgba(255,255,255,0.05); border-radius: 8px; border-color: rgba(255,255,255,0.18); }
+.ctv-library-row.is-focused, .ctv-library-close.is-focused { color: #1a140c; background-color: rgba(246,242,236,0.92); }
+.ctv-library-row.is-focused .ctv-label { color: #1a140c; text-shadow: 0px 0px 0px transparent; }
