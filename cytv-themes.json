@@ -5,9 +5,9 @@
     {
       "id": "github:franckobe/mytv-noel-theme:noel-neige",
       "title": "Automne au bord du lac",
-      "themeVersion": "1.1.0",
-      "path": "distributions/noel-neige/1.1.0/cytv-theme.json",
-      "sha256": "912c72fe56e3ac3aa7282f4bf048de178147c845fa7e10864ad0a389659c5f21"
+      "themeVersion": "1.2.0",
+      "path": "distributions/noel-neige/1.2.0/cytv-theme.json",
+      "sha256": "529291f352d87364c6b9c4f915fee4d0f595a76f7ed88d30356df40bcf380dc8"
     }
   ]
 }
