@@ -1,30 +1,73 @@
-/* Automne au bord du lac — verre translucide, nuit chaude, accents ambrés.
-   Positions appartiennent au preset scenic-grid (comme glasshouse). */
+/* Automne au bord du lac — verre dépoli prononcé, focus bord blanc net + soulèvement.
+   Preset dock-grid. */
 
 .ctv-home { background-color: #140f0a; color: #f6f1ea; }
-.ctv-ambient { background-image: linear-gradient(0deg, rgba(14,10,6,0.60), transparent 55%); }
+.ctv-ambient { background-image: linear-gradient(0deg, rgba(14,10,6,0.62), transparent); }
 
-/* Horloge et date : blanc chaud, lisibles sur le fond animé. */
-.ctv-clock { color: #ffffff; text-shadow: 0px 2px 12px rgba(0,0,0,0.85); }
-.ctv-date, .ctv-period { color: #f3ece2; font-weight: 400; text-shadow: 0px 2px 10px rgba(0,0,0,0.85); }
+/* Barre du dock : panneau de verre dépoli translucide (le paysage transparaît). */
+.ctv-dock {
+  background-color: rgba(18,13,8,0.38);
+  background-image: linear-gradient(145deg, rgba(255,255,255,0.12), rgba(255,255,255,0.02));
+  border-color: rgba(255,255,255,0.20);
+  border-radius: 28px;
+  box-shadow: 0px 12px 40px rgba(0,0,0,0.45);
+}
 
-/* Tuiles : verre translucide, bord clair, focus ambré. */
-.ctv-card { color: #f6f1ea; background-color: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.20); border-radius: 18px; box-shadow: 0px 8px 24px rgba(0,0,0,0.35); }
-.ctv-card.is-focused { box-shadow: 0px 0px 0px 3px rgba(224,148,60,0.95), 0px 10px 28px rgba(0,0,0,0.5); }
-.ctv-label { color: #f6f1ea; font-weight: 400; text-shadow: 0px 2px 8px rgba(0,0,0,0.85); letter-spacing: 0px; }
+.ctv-clock { color: #ffffff; font-weight: 400; letter-spacing: 1px; text-shadow: 0px 2px 12px rgba(0,0,0,0.85); }
+.ctv-greeting { color: #f3ece2; font-weight: 500; letter-spacing: 2px; }
+.ctv-date, .ctv-period { color: #f3ece2; font-weight: 400; letter-spacing: 0.5px; text-shadow: 0px 2px 10px rgba(0,0,0,0.85); }
 
-/* Raccourcis (Inputs / Wi-Fi / Settings) en verre, focus ambré. */
-.ctv-shortcut { color: #f6f1ea; background-color: rgba(18,13,8,0.55); border-color: rgba(255,255,255,0.22); border-radius: 10px; }
-.ctv-shortcut.is-focused { color: #20140a; background-color: #e0943c; border-color: #e0943c; }
+/* Tuiles d'apps : verre dépoli translucide, reflet diagonal marqué. */
+.ctv-card {
+  color: #f6f1ea;
+  background-color: rgba(255,255,255,0.16);
+  background-image: linear-gradient(145deg, rgba(255,255,255,0.26), rgba(255,255,255,0.05));
+  border-color: rgba(255,255,255,0.42);
+  border-radius: 14px;
+  box-shadow: 0px 10px 28px rgba(0,0,0,0.42);
+}
+/* Focus : la tuile s'éclaircit et se soulève derrière une bordure blanche nette. */
+.ctv-card.is-focused {
+  border-color: rgba(255,255,255,0.96);
+  background-color: rgba(255,255,255,0.24);
+  background-image: linear-gradient(145deg, rgba(255,255,255,0.42), rgba(255,255,255,0.08));
+  box-shadow: 0px 16px 38px rgba(0,0,0,0.58);
+}
+.ctv-label { color: #f6f1ea; font-weight: 400; text-shadow: 0px 2px 8px rgba(0,0,0,0.85); letter-spacing: 0.4px; }
+
+/* Raccourcis (Entrées / Wi-Fi / Paramètres) : verre prononcé ; focus blanc frosté. */
+.ctv-shortcut {
+  color: #f6f1ea;
+  background-color: rgba(255,255,255,0.12);
+  background-image: linear-gradient(145deg, rgba(255,255,255,0.20), rgba(255,255,255,0.03));
+  border-color: rgba(255,255,255,0.34);
+  border-radius: 10px;
+}
+.ctv-shortcut.is-focused {
+  color: #1a130a;
+  background-color: rgba(255,255,255,0.92);
+  background-image: linear-gradient(145deg, rgba(255,255,255,0.98), rgba(236,226,210,0.80));
+  border-color: rgba(255,255,255,0.96);
+}
 
 /* Panneau d'entrées : verre sombre chaud. */
-.ctv-inputs { color: #f6f1ea; background-color: rgba(18,13,8,0.90); border-color: rgba(255,255,255,0.20); border-radius: 12px; }
+.ctv-inputs { color: #f6f1ea; background-color: rgba(18,13,8,0.88); background-image: linear-gradient(145deg, rgba(255,255,255,0.10), rgba(255,255,255,0.02)); border-color: rgba(255,255,255,0.24); border-radius: 12px; }
 .ctv-input-row { color: #f6f1ea; background-color: transparent; border-radius: 8px; }
-.ctv-input-row.is-focused { color: #f6f1ea; background-color: rgba(224,148,60,0.22); }
+.ctv-input-row.is-focused { color: #1a130a; background-color: rgba(255,255,255,0.90); background-image: linear-gradient(145deg, rgba(255,255,255,0.98), rgba(236,226,210,0.80)); }
 
 /* Bibliothèque "toutes les apps" : scrim léger + panneau verre lisible. */
 .ctv-library { color: #f6f1ea; background-color: rgba(12,8,4,0.35); border-radius: 0px; }
-.ctv-library-panel { color: #f6f1ea; background-color: rgba(18,13,8,0.92); border-color: rgba(255,255,255,0.20); border-radius: 12px; }
-.ctv-library-row, .ctv-library-close { color: #f6f1ea; background-color: rgba(255,255,255,0.06); border-radius: 8px; border-color: rgba(255,255,255,0.16); }
-.ctv-library-row.is-focused, .ctv-library-close.is-focused { color: #20140a; background-color: #e0943c; }
-.ctv-library-row.is-focused .ctv-label { color: #20140a; text-shadow: 0px 0px 0px transparent; }
+.ctv-library-panel { color: #f6f1ea; background-color: rgba(18,13,8,0.88); background-image: linear-gradient(145deg, rgba(255,255,255,0.10), rgba(255,255,255,0.02)); border-color: rgba(255,255,255,0.24); border-radius: 12px; }
+.ctv-library-row, .ctv-library-close {
+  color: #f6f1ea;
+  background-color: rgba(255,255,255,0.10);
+  background-image: linear-gradient(145deg, rgba(255,255,255,0.16), rgba(255,255,255,0.03));
+  border-radius: 8px;
+  border-color: rgba(255,255,255,0.26);
+}
+.ctv-library-row.is-focused, .ctv-library-close.is-focused {
+  color: #1a130a;
+  background-color: rgba(255,255,255,0.92);
+  background-image: linear-gradient(145deg, rgba(255,255,255,0.98), rgba(236,226,210,0.80));
+}
+.ctv-library-row.is-focused .ctv-label { color: #1a130a; text-shadow: 0px 0px 0px transparent; }
