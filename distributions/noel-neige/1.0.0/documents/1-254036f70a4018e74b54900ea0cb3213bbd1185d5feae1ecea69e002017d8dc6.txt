@@ -1,0 +1,9 @@
+Noël sous la neige — crédits des médias
+
+Fond animé (assets/wallpaper-1080p.mp4) et image fixe / aperçu
+(assets/landscape.jpg, assets/preview.jpg)
+  "Close up video of a christmas tree with snow" — Pexels (ID 6029491)
+  Source : https://www.pexels.com/video/6029491/
+  Licence Pexels (gratuit, usage personnel et commercial, sans attribution obligatoire)
+
+Style CSS du thème : MIT (voir LICENSE.txt).

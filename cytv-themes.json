@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/franckobe/mytv-noel-theme",
+  "themes": [
+    {
+      "id": "github:franckobe/mytv-noel-theme:noel-neige",
+      "title": "Noël sous la neige",
+      "themeVersion": "1.0.0",
+      "path": "distributions/noel-neige/1.0.0/cytv-theme.json",
+      "sha256": "bcdb1d66ab4365999462fe6cce8b8cfdcb7fca7b9687430eaa78c9dbf5a06dce"
+    }
+  ]
+}
