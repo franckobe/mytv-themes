@@ -1,0 +1,30 @@
+/* Noël sous la neige — verre translucide, nuit bleutée, accents dorés.
+   Positions appartiennent au preset scenic-grid (comme glasshouse). */
+
+.ctv-home { background-color: #080c18; color: #f3f6fb; }
+.ctv-ambient { background-image: linear-gradient(0deg, rgba(6,10,22,0.55), transparent 55%); }
+
+/* Horloge et date : blanc chaud, lisibles sur le fond animé. */
+.ctv-clock { color: #ffffff; text-shadow: 0px 2px 12px rgba(0,0,0,0.85); }
+.ctv-date, .ctv-period { color: #eef2f8; font-weight: 400; text-shadow: 0px 2px 10px rgba(0,0,0,0.85); }
+
+/* Tuiles : verre translucide, bord clair, focus doré. */
+.ctv-card { color: #f3f6fb; background-color: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.20); border-radius: 18px; box-shadow: 0px 8px 24px rgba(0,0,0,0.35); }
+.ctv-card.is-focused { box-shadow: 0px 0px 0px 3px rgba(240,192,112,0.95), 0px 10px 28px rgba(0,0,0,0.5); }
+.ctv-label { color: #f3f6fb; font-weight: 400; text-shadow: 0px 2px 8px rgba(0,0,0,0.85); letter-spacing: 0px; }
+
+/* Raccourcis (Inputs / Wi-Fi / Settings) en verre, focus doré. */
+.ctv-shortcut { color: #f3f6fb; background-color: rgba(10,15,28,0.55); border-color: rgba(255,255,255,0.22); border-radius: 10px; }
+.ctv-shortcut.is-focused { color: #1a1206; background-color: #f0c070; border-color: #f0c070; }
+
+/* Panneau d'entrées : verre sombre. */
+.ctv-inputs { color: #f3f6fb; background-color: rgba(10,15,28,0.90); border-color: rgba(255,255,255,0.20); border-radius: 12px; }
+.ctv-input-row { color: #f3f6fb; background-color: transparent; border-radius: 8px; }
+.ctv-input-row.is-focused { color: #f3f6fb; background-color: rgba(240,192,112,0.22); }
+
+/* Bibliothèque "toutes les apps" : scrim léger + panneau verre lisible. */
+.ctv-library { color: #f3f6fb; background-color: rgba(6,10,20,0.35); border-radius: 0px; }
+.ctv-library-panel { color: #f3f6fb; background-color: rgba(10,15,28,0.92); border-color: rgba(255,255,255,0.20); border-radius: 12px; }
+.ctv-library-row, .ctv-library-close { color: #f3f6fb; background-color: rgba(255,255,255,0.06); border-radius: 8px; border-color: rgba(255,255,255,0.16); }
+.ctv-library-row.is-focused, .ctv-library-close.is-focused { color: #1a1206; background-color: #f0c070; }
+.ctv-library-row.is-focused .ctv-label { color: #1a1206; text-shadow: 0px 0px 0px transparent; }
