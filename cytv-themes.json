@@ -4,10 +4,10 @@
   "themes": [
     {
       "id": "github:franckobe/mytv-noel-theme:noel-neige",
-      "title": "Noël sous la neige",
-      "themeVersion": "1.0.0",
-      "path": "distributions/noel-neige/1.0.0/cytv-theme.json",
-      "sha256": "bcdb1d66ab4365999462fe6cce8b8cfdcb7fca7b9687430eaa78c9dbf5a06dce"
+      "title": "Automne au bord du lac",
+      "themeVersion": "1.1.0",
+      "path": "distributions/noel-neige/1.1.0/cytv-theme.json",
+      "sha256": "912c72fe56e3ac3aa7282f4bf048de178147c845fa7e10864ad0a389659c5f21"
     }
   ]
 }
