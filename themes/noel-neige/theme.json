@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "themeApiVersion": 1,
   "id": "github:franckobe/mytv-noel-theme:noel-neige",
-  "title": "Noël sous la neige",
-  "description": "Un soir d'hiver enneigé en fond animé, tuiles en verre translucide et accents dorés chaleureux. Horloge claire, neige qui tombe.",
+  "title": "Automne au bord du lac",
+  "description": "Un lac de montagne en miroir aux couleurs d'automne, en fond animé. Tuiles en verre translucide, accents ambrés chaleureux et horloge claire.",
   "author": {
     "name": "Franck",
     "url": "https://github.com/franckobe"
   },
-  "themeVersion": "1.0.0",
+  "themeVersion": "1.1.0",
   "layout": {
     "preset": "scenic-grid",
     "columns": 8,
@@ -19,8 +19,8 @@
   },
   "defaults": {
     "wallpaperAssetId": "landscape",
-    "dim": 0.45,
-    "accent": "#f0c070"
+    "dim": 0.5,
+    "accent": "#e0943c"
   },
   "assets": [
     {
